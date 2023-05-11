@@ -1,0 +1,9 @@
+{
+  "name": "test-vcpkg-dcmtk",
+  "version-semver": "1.0.0",
+  "dependencies": [
+    {
+      "name": "dcmtk"
+    }
+  ]
+}
