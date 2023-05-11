@@ -4,9 +4,9 @@ jobs:
   build:
     strategy:
       matrix:
-        platform: [windows-2019]
+        platform: [windows-2022]
         include:
-        - platform: windows-2019
+        - platform: windows-2022
           vcpkgCommitId: 'c9f906558f9bb12ee9811d6edc98ec9255c6cda5'
     runs-on: ${{ matrix.platform }}
     env:
