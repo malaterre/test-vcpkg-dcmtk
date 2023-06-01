@@ -25,4 +25,3 @@ jobs:
           cmakeListsTxtPath: '${{ github.workspace }}/CMakeLists.txt'
           configurePreset: '${{ env.CMAKE_PRESET }}'
           buildPreset: '${{ env.CMAKE_PRESET }}'
-          packagePreset: '${{ env.CMAKE_PRESET }}'
